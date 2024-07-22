@@ -59,5 +59,13 @@ export function DashboardPageMain({
   className,
   children
 }: DashboardPageGenericProps) {
-  return <main className={cn(['mt-10 px-6 py-3', className])}>{children}</main>
+  return <main className={cn(['pt-10 px-6 py-3', className])}>{children}</main>
 }
+export function DashboardPageMainCardContainer({
+  className,
+  children
+}: DashboardPageGenericProps) {
+  return <div className={cn(['', className])}>{children}</div>
+}
+
+

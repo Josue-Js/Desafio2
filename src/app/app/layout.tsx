@@ -6,12 +6,12 @@ export default async function Layout({ children }: PropsWithChildren) {
   const session = await getServerAuthSession()
 
   return (
-    <div className="grid grid-cols-[auto_1fr]">
+    <div className="flex relative md:grid  grid-cols-[auto_1fr]">
       <Suspense fallback={<div>Loading...</div>}>
         <MainSidebar user={session!.user!} />
       </Suspense>
 
-      <main>{children}</main>
+      <main className='flex-1'>{children}</main>
     </div>
   )
 }

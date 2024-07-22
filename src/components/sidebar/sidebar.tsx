@@ -13,7 +13,7 @@ export function DashboardSidebar({
 }: DashboardSidebarGenericProps) {
   return (
     <aside
-      className={cn('flex flex-col border-r border-border py-3', className)}
+      className={cn('flex flex-col h-full border-r border-border py-3', className)}
     >
       {children}
     </aside>
