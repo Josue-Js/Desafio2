@@ -8,8 +8,8 @@ import { SessionWrapper } from '@/contexts/sessionWrapper'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Desafio 2',
-  description: 'Desafio 2'
+  title: 'NotePad',
+  description: 'NotePad a solução definitiva para capturar, organizar e acessar todas as suas ideias e informações de forma simples e eficiente'
 }
 
 export default function RootLayout({
