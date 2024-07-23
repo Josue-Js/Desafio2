@@ -73,3 +73,8 @@
     scrollbar-color: hsl(var(--muted-foreground)) hsl(var(--secondary)); /* Adjust thumb and track color */
   }
 }
+
+.ProseMirror * {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
